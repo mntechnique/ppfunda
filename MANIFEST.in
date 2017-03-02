@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ppfunda *.css
+recursive-include ppfunda *.csv
+recursive-include ppfunda *.html
+recursive-include ppfunda *.ico
+recursive-include ppfunda *.js
+recursive-include ppfunda *.json
+recursive-include ppfunda *.md
+recursive-include ppfunda *.png
+recursive-include ppfunda *.py
+recursive-include ppfunda *.svg
+recursive-include ppfunda *.txt
+recursive-exclude ppfunda *.pyc
